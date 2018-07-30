@@ -10,3 +10,37 @@ indexes:
 # automatically uploaded to the admin console when you next deploy
 # your application using appcfg.py.
 
+- kind: BrightLandListing
+  properties:
+  - name: ListOfficeKey
+  - name: LotSizeUnits
+  - name: ListAgentPreferredPhone
+  - name: SchoolDistrictKey
+  - name: MLSListDate = ndb.DateTimeProperty()
+  - name: Directions
+  - name: Longitude
+  - name: PricePerSquareFoot
+  - name: SyndicationRemarks
+  - name: LostSizeAcres
+  - name: StreetName
+  - name: ListAgentMlsId
+  - name: Latitude
+  - name: AssessmentYear
+  - name: LotSizeArea
+  - name: PublicRemarks
+  - name: FullStreetAddress
+  - name: TaxYear
+  - name: ListingTaxID
+  - name: ListAgentFullName
+  - name: ListAgentEmail
+  - name: ListAgentKey
+  - name: LotSizeSquareFeet
+  - name: PostalCode
+  - name: UnparsedAddress
+  - name: ListingKey
+  - name: TaxAnnualAmount
+  - name: CloseDate = ndb.DateTimeProperty()
+  - name: ListPrice
+  - name: SubdivisionName
+  - name: MlsStatus
+  - name: ListingId
